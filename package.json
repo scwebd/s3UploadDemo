@@ -1,0 +1,25 @@
+{
+  "name": "s3uploaddemo",
+  "version": "1.0.0",
+  "description": "Simple Node/Express App to Upload User-Specified Files to AWS S3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scwebd/s3UploadDemo.git"
+  },
+  "author": "Sarah Cullen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scwebd/s3UploadDemo/issues"
+  },
+  "homepage": "https://github.com/scwebd/s3UploadDemo#readme",
+  "dependencies": {
+    "aws-sdk": "^2.611.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6"
+  }
+}
