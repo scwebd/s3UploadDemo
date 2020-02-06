@@ -9,7 +9,7 @@ $("#submitUpload").on("click", function (event) {
     $.ajax({
         type: "POST",
         enctype: "multipart/form-data", // IMPORTANT!!!
-        url: "/new/upload",
+        url: "/upload",
         data: data,
         processData: false,
         contentType: false,

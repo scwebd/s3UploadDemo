@@ -20,7 +20,7 @@ app.use(express.static("public"));
 
 
 // post route to handle file upload
-app.post("/new/upload", async (req, res) => {
+app.post("/upload", async (req, res) => {
     // Sending error back if no file was uploaded
     if (!req.files) {
         return res.status(400).send("No file was uploaded.");
