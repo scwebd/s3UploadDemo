@@ -1,7 +1,7 @@
 {
   "name": "s3uploaddemo",
   "version": "1.0.0",
-  "description": "Simple Node/Express App to Upload User-Specified Files to AWS S3",
+  "description": "Demo Node/Express app to upload user-selected files to AWS S3",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
