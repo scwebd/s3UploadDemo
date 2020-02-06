@@ -25,7 +25,6 @@ $("#submitUpload").on("click", function (event) {
         },
         error: function(err) {
             console.log(err);
-
         }
     });
 });

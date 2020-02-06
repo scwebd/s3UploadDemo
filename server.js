@@ -31,9 +31,9 @@ app.post("/upload", async (req, res) => {
 
     // setting up S3 upload parameters
     const params = {
+        Body: uploadFile.data, // data from uploaded file
         Bucket: keys.s3bucket, // bucket name
-        Key: `${Date.now()}-${uploadFile.name}`, // file name to use for S3 bucket
-        Body: uploadFile.data // data from uploaded file
+        Key: `${Date.now()}-${uploadFile.name}` // file name to use for S3 bucket
     };
 
     // uploading file to the bucket
