@@ -22,6 +22,9 @@ $("#submitUpload").on("click", function (event) {
             // the back-end sends an object containing the AWS url for the newly-uploaded 
             // file and any additional data sent from the front-end via our AJAX post
             console.log(response);
+
+            // clear out the form fields for next upload
+            $("#uploadForm")[0].reset();
         },
         error: function(err) {
             console.log(err);
